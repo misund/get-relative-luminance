@@ -1,5 +1,5 @@
 {
-  "name": "package-starter",
+  "name": "get-relative-luminance",
   "version": "0.1.0",
   "description": "Get relative luminance from a color string.",
   "main": "build/index.js",
