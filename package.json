@@ -1,6 +1,6 @@
 {
   "name": "get-relative-luminance",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Get relative luminance from a color string.",
   "main": "build/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "lint": "eslint --max-warnings=0 src",
     "mocha": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register",
     "test": "yarn lint && yarn mocha",
-	 "prepublish": "yarn build && yarn test"
+    "prepublish": "yarn build && yarn test"
   },
   "repository": {
     "type": "git",
