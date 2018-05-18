@@ -1,6 +1,6 @@
 /* global describe, it */
 import assert from 'assert';
-import getRelativeLuminance from '../src';
+import getRelativeLuminance from '..';
 
 function round(number, precision) {
   const factor = 10 ** precision;
