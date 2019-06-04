@@ -8,7 +8,8 @@
     "lint": "eslint --max-warnings=0 src",
     "mocha": "mocha --require @babel/register",
     "test": "yarn lint && yarn mocha",
-    "prepublish": "yarn build && yarn test"
+    "prepublish": "yarn build && yarn test",
+    "release": "np"
   },
   "repository": {
     "type": "git",
@@ -38,7 +39,8 @@
     "eslint-plugin-import": "2.17.3",
     "eslint-plugin-jsx-a11y": "6.1.2",
     "eslint-plugin-react": "7.13.0",
-    "mocha": "6.1.4"
+    "mocha": "6.1.4",
+    "np": "5.0.2"
   },
   "dependencies": {
     "parse-color": "1.0.0"
