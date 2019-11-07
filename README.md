@@ -1,6 +1,6 @@
 # Get relative luminance
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/misund/get-relative-luminance.svg)](https://greenkeeper.io/)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=misund/get-relative-luminance)](https://dependabot.com)
 
 `get-relative-luminance` calculates a CSS color's relative luminance based on
 [this definition from W3C](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef).
