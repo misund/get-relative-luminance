@@ -40,7 +40,7 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.18.3",
     "mocha": "6.2.2",
-    "np": "5.2.1"
+    "np": "6.0.0"
   },
   "dependencies": {
     "parse-color": "1.0.0"
