@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/misund/get-relative-luminance#readme",
   "devDependencies": {
-    "@babel/cli": "7.10.1",
+    "@babel/cli": "7.12.13",
     "@babel/core": "7.10.2",
     "@babel/preset-env": "7.10.2",
     "@babel/register": "7.10.1",
