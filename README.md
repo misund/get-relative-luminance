@@ -8,32 +8,48 @@
 It doesn't handle transparency as of yet.
 
 ## Installation
-```
+
+```bash
 $ npm install get-relative-luminance
 ```
 
 ## Usage
-```js
-import getRelativeLuminance from 'get-relative-luminance';
 
-getRelativeLuminance('rgb(255, 255, 255)'); // 1
-getRelativeLuminance('white'); // 1
-getRelativeLuminance('hsl(0, 0%, 0%)'); // 0
+```js
+import getRelativeLuminance from 'get-relative-luminance'
+
+getRelativeLuminance('rgb(255, 255, 255)') // 1
+getRelativeLuminance('white') // 1
+getRelativeLuminance('hsl(0, 0%, 0%)') // 0
 ```
 
 ## Signature
-`(color: string, { ignoreTransparency:boolean = false } = {}) => number`
+
+```ts
+;(
+  color: string,
+  {
+    ignoreTransparency,
+  }?: {
+    ignoreTransparency?: boolean | undefined
+  },
+) => number
+```
 
 ## Contributing
+
 I appreciate your issues and PRs [on Github](https://github.com/misund/get-relative-luminance)!
 
 ### Testing
+
 ```
 yarn build && yarn test
 ```
 
 ### Releasing
+
 This project uses [np](https://github.com/sindresorhus/np).
+
 1. Make sure your changes are in master
 2. Run `yarn release`
 3. Follow the interactive release guide
