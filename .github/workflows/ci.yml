@@ -22,5 +22,5 @@ jobs:
         with:
           node-version: '${{ matrix.node-version }}'
       - uses: actions/checkout@v3
-      - run: yarn
+      - run: yarn install --immutable --immutable-cache --check-cache
       - run: yarn test
