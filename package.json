@@ -4,6 +4,9 @@
   "description": "Get relative luminance from a color string.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "eslint --max-warnings=0 src/**/*.ts",
