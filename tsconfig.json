@@ -1,13 +1,10 @@
 {
+  "extends": "@sindresorhus/tsconfig",
+  "module": "ES2020",
+  "moduleResolution": "node",
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "declaration": true,
-    "outDir": "./build",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true
+    "outDir": "distribution"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "test"]
+  "include": ["source"]
 }

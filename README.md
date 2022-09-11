@@ -43,7 +43,7 @@ I appreciate your issues and PRs [on Github](https://github.com/misund/get-relat
 ### Testing
 
 ```
-yarn build && yarn test
+yarn test
 ```
 
 ### Releasing
