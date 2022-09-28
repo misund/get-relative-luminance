@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/misund/get-relative-luminance#readme",
   "devDependencies": {
-    "@types/mocha": "9.1.1",
+    "@types/mocha": "10.0.0",
     "@types/parse-color": "1.0.1",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
