@@ -5,6 +5,12 @@
   "type": "module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "import": "./build/index.js"
+    }
+  },
   "files": [
     "build"
   ],
@@ -39,8 +45,9 @@
   "devDependencies": {
     "@eslint/eslintrc": "3.3.1",
     "@eslint/js": "9.32.0",
-    "@types/mocha": "9.1.1",
-    "@types/parse-color": "1.0.1",
+    "@types/mocha": "10.0.10",
+    "@types/node": "22.10.5",
+    "@types/parse-color": "1.0.3",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
     "eslint": "9.32.0",
