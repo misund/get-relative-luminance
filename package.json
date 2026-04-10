@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/misund/get-relative-luminance#readme",
   "devDependencies": {
-    "@eslint/eslintrc": "3.3.1",
+    "@eslint/eslintrc": "3.3.3",
     "@eslint/js": "9.37.0",
     "@types/mocha": "10.0.10",
     "@types/node": "25.2.0",
