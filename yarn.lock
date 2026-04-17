@@ -1026,7 +1026,7 @@ clipboard-image@^0.1.0:
   dependencies:
     run-jxa "^3.0.0"
 
-clipboardy@^5.0.2:
+clipboardy@^5.3.1:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/clipboardy/-/clipboardy-5.3.1.tgz#604765d6020341555964c53c60527ee22024fde9"
   integrity sha512-fPWgBqpp9ctiOQCkE5yjYGzv11ZU55g6ahEgr3COiio6dXdt1mbchCPXQrSR2Y9sZqfi8L7QD3+UosgXVIuPdg==
@@ -1104,7 +1104,7 @@ confusing-browser-globals@^1.0.10:
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.11.tgz#ae40e9b57cdd3915408a2805ebd3a5585608dc81"
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
-cosmiconfig@^9.0.0:
+cosmiconfig@^9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-9.0.1.tgz#df110631a8547b5d1a98915271986f06e3011379"
   integrity sha512-hr4ihw+DBqcvrsEDioRO31Z17x71pUYoNe/4h6Z0wB72p7MU7/9gH8Q3s12NFhHPfYBBOV3qyfUxmr/Yn3shnQ==
@@ -1716,7 +1716,7 @@ execa@^9.6.1:
     strip-final-newline "^4.0.0"
     yoctocolors "^2.1.1"
 
-exit-hook@^5.0.1:
+exit-hook@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/exit-hook/-/exit-hook-5.1.0.tgz#f59338d192e150c6997d0af02d72d572d3d635d7"
   integrity sha512-INjr2xyxHo7bhAqf5ong++GZPPnpcuBcaXUKt03yf7Fie9yWD7FapL4teOU0+awQazGs5ucBh7xWs/AD+6nhog==
@@ -2294,7 +2294,7 @@ inquirer-autosubmit-prompt@^0.2.0:
     inquirer "^6.2.1"
     rxjs "^6.3.3"
 
-inquirer@^13.2.0:
+inquirer@^13.4.1:
   version "13.4.1"
   resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-13.4.1.tgz#19316c3ae38a0b790148bd4265b724f0af31ea94"
   integrity sha512-IUopujY77lFiSaLz0fx6FHEOEANz0nAsqv+vQJddnVshi6wdos984qwjb42mZbH3zCJS4f9ioIGDqSPqMMMXjw==
@@ -3014,7 +3014,7 @@ math-intrinsics@^1.1.0:
   resolved "https://registry.yarnpkg.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz#a0dd74be81e2aa5c2f27e65ce283605ee4e2b7f9"
   integrity sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==
 
-meow@^14.0.0:
+meow@^14.1.0:
   version "14.1.0"
   resolved "https://registry.yarnpkg.com/meow/-/meow-14.1.0.tgz#3cd2d16ad534829ab12fcb5010fc2fdb89facd31"
   integrity sha512-EDYo6VlmtnumlcBCbh1gLJ//9jvM/ndXHfVXIFrZVr6fGcwTUyCTFNTLCKuY3ffbK8L/+3Mzqnd58RojiZqHVw==
@@ -3148,25 +3148,25 @@ normalize-package-data@^8.0.0:
     semver "^7.3.5"
     validate-npm-package-license "^3.0.4"
 
-np@11.0.3:
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/np/-/np-11.0.3.tgz#24ce4073e5b9058b0ccd4b9b2a55dad50eafff93"
-  integrity sha512-a1Yp3AR/l5OH9cTxjdPuunRQYHU8M/K2YSuzaG4HBaFEkYzLWFl7OhB9ayWACc1Uo1Xdho0MsB+HaBjvPgyU5g==
+np@11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/np/-/np-11.1.0.tgz#f7ac790c2efa00418ea3d3fbf60eb5f63f8edb1f"
+  integrity sha512-zCOqv0SGKCffoBUV0NILovBAFFLKZgPKplBeeVWciJkNY1jz8UoWS7VoLXSe1dSaK5mHtJVeLY7kCJM/3I3QDw==
   dependencies:
     chalk "^5.6.2"
     chalk-template "^1.1.2"
-    clipboardy "^5.0.2"
-    cosmiconfig "^9.0.0"
+    clipboardy "^5.3.1"
+    cosmiconfig "^9.0.1"
     del "^8.0.1"
     escape-goat "^4.0.0"
     escape-string-regexp "^5.0.0"
     execa "^9.6.1"
-    exit-hook "^5.0.1"
+    exit-hook "^5.1.0"
     github-url-from-git "^1.5.0"
     hosted-git-info "^9.0.2"
     ignore-walk "^8.0.0"
     import-local "^3.2.0"
-    inquirer "^13.2.0"
+    inquirer "^13.4.1"
     is-installed-globally "^1.0.0"
     is-interactive "^2.0.0"
     is-scoped "^3.0.0"
@@ -3174,26 +3174,26 @@ np@11.0.3:
     listr "^0.14.3"
     listr-input "^0.2.1"
     log-symbols "^7.0.1"
-    meow "^14.0.0"
+    meow "^14.1.0"
     new-github-release-url "^2.0.0"
-    npm-name "^8.0.0"
+    npm-name "^8.1.0"
     onetime "^7.0.0"
     open "^11.0.0"
     p-memoize "^8.0.0"
-    package-directory "^8.0.0"
+    package-directory "^8.2.0"
     path-exists "^5.0.0"
     read-package-up "^12.0.0"
-    read-pkg "^10.0.0"
+    read-pkg "^10.1.0"
     rxjs "^7.8.2"
-    semver "^7.7.3"
+    semver "^7.7.4"
     symbol-observable "^4.0.0"
     terminal-link "^5.0.0"
     update-notifier "^7.3.1"
 
-npm-name@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/npm-name/-/npm-name-8.0.0.tgz#05aeda9748706ffad66d9ecec8188b99d6e3908b"
-  integrity sha512-DIuCGcKYYhASAZW6Xh/tiaGMko8IHOHe0n3zOA7SzTi0Yvy00x8L7sa5yNiZ75Ny58O/KeRtNouy8Ut6gPbKiw==
+npm-name@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/npm-name/-/npm-name-8.1.0.tgz#bd79fa90f77ca475c7c1d2ed51de7309eb89d98f"
+  integrity sha512-0Fji7beCAW3yHaqfVPLlT8GOSt7IIWZGQshZqosjbUOhMvs7P4r7g0raOSQIUjKBJO7brLBdXsnX2/l/l5vmUw==
   dependencies:
     is-scoped "^3.0.0"
     is-url-superb "^6.1.0"
@@ -3416,7 +3416,7 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-package-directory@^8.0.0:
+package-directory@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/package-directory/-/package-directory-8.2.0.tgz#b4f9df2e56782beb1d805945e2c530d29a3806f9"
   integrity sha512-qJSu5Mo6tHmRxCy2KCYYKYgcfBdUpy9dwReaZD/xwf608AUk/MoRtIOWzgDtUeGeC7n/55yC3MI1Q+MbSoektw==
@@ -3618,7 +3618,7 @@ read-package-up@^12.0.0:
     read-pkg "^10.0.0"
     type-fest "^5.2.0"
 
-read-pkg@^10.0.0:
+read-pkg@^10.0.0, read-pkg@^10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-10.1.0.tgz#eff31c7e505a4995a85c5af017b3dc413745431c"
   integrity sha512-I8g2lArQiP78ll51UeMZojewtYgIRCKCWqZEgOO8c/uefTI+XDXvCSXu3+YNUaTNvZzobrL5+SqHjBrByRRTdg==
@@ -3837,7 +3837,7 @@ semver@^6.3.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.5, semver@^7.6.0, semver@^7.6.3, semver@^7.7.3:
+semver@^7.3.5, semver@^7.6.0, semver@^7.6.3, semver@^7.7.4:
   version "7.7.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.4.tgz#28464e36060e991fa7a11d0279d2d3f3b57a7e8a"
   integrity sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==
